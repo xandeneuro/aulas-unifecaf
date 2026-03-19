@@ -68,4 +68,5 @@ def calculadora():
         print(f"{Fore.RED}Opção inválida. Por favor, escolha uma operação válida.{Fore.RESET}")
     calculadora()
 
-calculadora()
+if __name__ == "__main__":
+    calculadora()
