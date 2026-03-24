@@ -35,6 +35,8 @@ def buscar_tarefa_por_id(id_escolhido):
     return None
 
 def cadastrar_tarefa():
+   limpar_tela()
+   listar_tarefas() 
    global proximo_id
    tarefa_nova = input("Digite uma nova tarefa: ")
    banco_dados.append({"id": proximo_id, "tarefa": tarefa_nova,"feito":False})
