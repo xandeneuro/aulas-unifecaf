@@ -59,7 +59,7 @@ def lista_tarefas():
             print("Saindo do sistema...")
             break
         else:
-            print("Opção inválida")
+            print(f"{Fore.RED}Opção inválida{Style.RESET_ALL}")
 
     
 
